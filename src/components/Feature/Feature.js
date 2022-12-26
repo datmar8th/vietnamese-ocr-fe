@@ -35,7 +35,7 @@ const Feature = () => {
     formData.append("file", imageFile, "img_transformer.png");
 
     let t0 = performance.now();
-    axios.post("https://b05c-14-236-7-220.ap.ngrok.io/upload", formData).then((res, data) => {
+    axios.post("https://624a-14-185-227-52.ap.ngrok.io/upload", formData).then((res, data) => {
       data = res.data;
       setImagePrediction(data);
       let t1 = performance.now();
