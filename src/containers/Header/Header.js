@@ -11,7 +11,7 @@ const Header = () => {
         <div class="banner">
           <div class="container">
             <h1>nhận dạng chữ viết tiếng việt</h1><br />
-            <h2>Vietnamese Handwriting Regconitionn</h2>
+            <h2>Vietnamese Handwriting Regconition</h2>
           </div>
         </div>
       </header>
